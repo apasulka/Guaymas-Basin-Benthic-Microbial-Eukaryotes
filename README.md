@@ -13,7 +13,7 @@ Script for quality filtering sequences and generating an OTU table: 'SeqQC_OTUcl
 
 Import OTU table into R for all downstream analyses.
 
-*Initial OTU QC*
+**Initial OTU QC**
 1. Import OTU table
 2. Calculate total number of sequences per OTU, per sample
 3. Import 'NameSchematic.txt' to re-name sample names so they are more informative. Join with data.
@@ -22,28 +22,28 @@ Import OTU table into R for all downstream analyses.
 6. Run through 'pr2_rename_taxa' function to manually curate taxonomic group names (for summing sequences)
 7. Remove unwanted samples due to low sequence number or high abundance of metazoa.
 
-*Whole community plots*
+**Whole community plots**
 1. Summarize the number of sequences in each sample by the manually designated "Taxa" column name
 2. Pool replicate samples
 3. Plot (ggplot2) relative abundance of each taxonomic group in the community
 4. Plot OTU richness
 
-*Composition of ciliates*
+**Composition of ciliates**
 1. Aggregate data to major taxonomic group and Level 4 (approximately Class level).
 2. Plot relative abundance of ciliate reads at the class level.
 
-*Bubble plots - 3 groups*
+**Bubble plots - 3 groups**
 1. Calculate relative abundance
 2. Subset to three taxonomic groups of interest: Rhizaria, Ciliates, and Apicomplexa
 3. Generate bubble plot
 
-*Presence-absence UpsetR*
+**Presence-absence UpsetR**
 1. Aggregate the count of OTUs by habitat/sample type
 2. Change to binary
 3. Repeat with only ciliate data
 4. Plot using UpSetR
 
-*OTU richness - Ciliates only*
+**OTU richness - Ciliates only**
 1. Subset ciliate reads from main data frame
 2. If value does not equal 1, change to 1 (change to binary)
 3. Aggregate by total number of OTUs in each ciliate class
@@ -51,7 +51,7 @@ Import OTU table into R for all downstream analyses.
 5. Import distribution of ciliate OTUs (what samples were each OTUs found at)
 6. Generate shaded grey area for each bubble plot
 
-*Beta diversity metrics - MDS and ANOSIMS*
+**Beta diversity metrics - MDS and ANOSIMS**
 1. Transpose data and convert to numeric
 2. Calculate relative abundance
 3. Transform data for test for best fit: including 4th root, square root, and presence absence.
@@ -60,31 +60,30 @@ Import OTU table into R for all downstream analyses.
 6. Import "meta_Vent.csv" and merge with data
 7. This analysis uses 4th root transformed data for MDS plots.
 
-*NMDS Figure*
+**NMDS Figure**
 1. Input points calculated from above section
 2. Factor appropriate colors and shapes
 3. Use ggplot2 to plot NMDS figure
 
-*ANOSIM, SIMPER, & Alpha diversity*
-> ANOSIM
+**ANOSIM, SIMPER, & Alpha diversity**
+*ANOSIM*
 1. Import 4th root transformed data
 2. Test various factors to run ANOSIM analyses - habitat, sediment depth, mat color
 3. Save output results at .txt files.
 4. Repeat, but remove control samples to run ANOSIM
-> SIMPER
+*SIMPER*
 1. Import 4th root transformed data
 2. Run simper, again with various factors: habitat, mat color, & sediment horizon/depth
 3. Save output as text file
-Alpha diversity
+*Alpha diversity*
 1. Import R objects from before, need to use subsampled data.
 2. Randomly sub-sample
 3. Use 'diversity()' function on subsampled data to calculate Shannon and Inverse Simpson diversity metrics
 4. Plot box plots to show distribution by sample type
-> Rarefaction curve
+*Rarefaction curve*
 1. Use subsampled data
 2. Factor sample types with desired colors to plot the rarefaction curve.
 3. Use 'rarecurve()' function to generate rarefaction curves
-
 
 ## Contributors:
 Alexis Pasulka & Sarah Hu - last updated October 2018
