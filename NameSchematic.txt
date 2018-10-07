@@ -1,0 +1,24 @@
+SampleNumber	Num	FullSampleID	NewLabel	SampleNameR	NumberFiguresTables	Habitat	SedimentHorizon	MatSystem	ColorR	SRAEntry	ProjectID	AcessionID	R1_fastq	R2_fastq
+Sample 1	X1	1_GY08-009_YellowMat_0-1cm	1a YellowMat 0-1cm	Sample_1a_YellowMat_0.1cm	1a	Yellow Mat	0-1cm	Yellow mat 1	yellow	SRP110312	PRJNA391741	SAMN07274333	1_S1_L001_R1_001.fastq.gz	1_S1_L001_R2_001.fastq.gz
+Sample 2	X2	2_GY08-010_YellowMat_0-1cm	1b YellowMat 0-1cm	Sample_1b_YellowMat_0.1cm	1b	Yellow Mat	0-1cm	Yellow mat 1	yellow	SRP110312	PRJNA391741	SAMN07274334	2_S2_L001_R1_001.fastq.gz	2_S2_L001_R2_001.fastq.gz
+Sample 3	X3	3_GY08-012_YellowMat_1-2cm	2 YellowMat 1-2cm	Sample_2_YellowMat_1.2cm	2	Yellow Mat	1-2cm	Yellow mat 1	yellow	SRP110312	PRJNA391741	SAMN07274335	3_S3_L001_R1_001.fastq.gz	3_S3_L001_R2_001.fastq.gz
+Sample 4	X4	4_GY08-013_YellowMat_1-2cm	2b YellowMat 1-2 cm	Sample_2b_YellowMat_1.2_cm	2b	Yellow Mat		Yellow mat 1	yellow	SRP110312	PRJNA391741	SAMN07274336	4_S4_L001_R1_001.fastq.gz	4_S4_L001_R2_001.fastq.gz
+Sample 5	X5	5_GY08-024_Edgeofmat_0-1cm	3b Edge 0-1cm	Sample_3b_Edge_0.1cm	3b			Yellow mat 1	yellow	SRP110312	PRJNA391741	SAMN07274337	5_S5_L001_R1_001.fastq.gz	5_S5_L001_R2_001.fastq.gz
+Sample 6	X6	6_GY08-025_Edgeofmat_0-1cm	3 Edge 0-1cm	Sample_3_Edge_0.1cm	3	Edge of Mat	0-1cm	Yellow mat 1	yellow	SRP110312	PRJNA391741	SAMN07274338	6_S6_L001_R1_001.fastq.gz	6_S6_L001_R2_001.fastq.gz
+Sample 7	X7	7_GY08-027_Edgeofmat_1-2cm	4a Edge 1-2cm	Sample_4a_Edge_1.2cm	4a	Edge of Mat	1-2cm	Yellow mat 1	yellow	SRP110312	PRJNA391741	SAMN07274339	7_S7_L001_R1_001.fastq.gz	7_S7_L001_R2_001.fastq.gz
+Sample 8	X8	8_GY08-028_Edgeofmat_1-2cm	4b Edge 1-2cm	Sample_4b_Edge_1.2cm	4b	Edge of Mat	1-2cm	Yellow mat 1	yellow	SRP110312	PRJNA391741	SAMN07274340	8_S8_L001_R1_001.fastq.gz	8_S8_L001_R2_001.fastq.gz
+Sample 9	X9	9_GY08-039_Control-coldmud_0-1cm	5a Control 0-1cm	Sample_5a_Control_0.1cm	5a	Control	0-1cm	Yellow mat 1	blue	SRP110312	PRJNA391741	SAMN07274341	9_S9_L001_R1_001.fastq.gz	9_S9_L001_R2_001.fastq.gz
+Sample 10	X10	10_GY08-040_Control-coldmud_0-1cm	5b Control 0-1cm	Sample_5b_Control_0.1cm	5b	Control	0-1cm	Yellow mat 1	blue	SRP110312	PRJNA391741	SAMN07274342	10_S10_L001_R1_001.fastq.gz	10_S10_L001_R2_001.fastq.gz
+Sample 11	X11	11_GY08-042_Control-coldmud_1-2cm	6a Control 1-2cm	Sample_6a_Control_1.2cm	6a	Control	1-2cm	Yellow mat 1	blue	SRP110312	PRJNA391741	SAMN07274343	11_S11_L001_R1_001.fastq.gz	11_S11_L001_R2_001.fastq.gz
+Sample 12	X12	12_GY08-043_Control-coldmud_1-2cm	6b Control 1-2cm	Sample_6b_Control_1.2cm	6b	Control	1-2cm	Yellow mat 1	blue	SRP110312	PRJNA391741	SAMN07274344	12_S12_L001_R1_001.fastq.gz	12_S12_L001_R2_001.fastq.gz
+Sample 13	X13	13_GY08-054_YellowMat_0-1cm	7 YellowMat 0-1cm	Sample_7_YellowMat_0.1cm	7	Yellow Mat	0-1cm	Yellow mat 2	yellow	SRP110312	PRJNA391741	SAMN07274345	13_S13_L001_R1_001.fastq.gz	13_S13_L001_R2_001.fastq.gz
+Sample 14	X14	14_GY08-078_Control-coldmud_2-3cm	8 Control 2-3cm	Sample_8_Control_2.3cm	8	Control	2-3cm	Yellow mat 2	blue	SRP110312	PRJNA391741	SAMN07274346	14_S14_L001_R1_001.fastq.gz	14_S14_L001_R2_001.fastq.gz
+Sample 15	X15	15_GY08-212_orangemat_0-1cm	9 OrangeMat 0-1cm	Sample_9_OrangeMat_0.1cm	9	Orange Mat	0-1cm	Orange mat	orange	SRP110312	PRJNA391741	SAMN07274347	15_S15_L001_R1_001.fastq.gz	15_S15_L001_R2_001.fastq.gz
+Sample 16	X16	16_GY08-214_orangemat_1-2cm	10a OrangeMat 1-2cm	Sample_10a_OrangeMat_1.2cm	10a	Orange Mat	1-2cm	Orange mat	orange	SRP110312	PRJNA391741	SAMN07274348	16_S16_L001_R1_001.fastq.gz	16_S16_L001_R2_001.fastq.gz
+Sample 17	X17	17_GY08-215_orangemat_1-2cm	10b OrangeMat 1-2cm	Sample_10b_OrangeMat_1.2cm	10b	Orange Mat	1-2cm	Orange mat	orange	SRP110312	PRJNA391741	SAMN07274349	17_S17_L001_R1_001.fastq.gz	17_S17_L001_R2_001.fastq.gz
+Sample 18	X18	18_GY08-221_Edgeofmat_0-1cm	11 Edge 0-1cm	Sample_11_Edge_0.1cm	11	Edge of Mat	0-1cm	Orange mat	orange	SRP110312	PRJNA391741	SAMN07274350	18_S18_L001_R1_001.fastq.gz	18_S18_L001_R2_001.fastq.gz
+Sample 19	X19	19_GY08-223_Edgeofmat_1-2cm	13a Edge 1-2 cm	Sample_13a_Edge_1.2_cm	13a			Orange mat	orange	SRP110312	PRJNA391741	SAMN07274351	19_S19_L001_R1_001.fastq.gz	19_S19_L001_R2_001.fastq.gz
+Sample 20	X20	20_GY08-224_Edgeofmat_1-2cm	13b Edge 1-2 cm	Sample_13b_Edge_1.2_cm	13b			Orange mat	orange	SRP110312	PRJNA391741	SAMN07274352	20_S20_L001_R1_001.fastq.gz	20_S20_L001_R2_001.fastq.gz
+Sample 21	X21	21_GY08-230_Control-coldmud_0-1cm	14 Control 0-1cm	Sample_14_Control_0.1cm	14			Orange mat	blue	SRP110312	PRJNA391741	SAMN07274353	21_S21_L001_R1_001.fastq.gz	21_S21_L001_R2_001.fastq.gz
+Sample 22	X22	22_GY08-232_Control-coldmud_1-2cm	12a Control 1-2cm	Sample_12a_Control_1.2cm	12a	Control	1-2cm	Orange mat	blue	SRP110312	PRJNA391741	SAMN07274354	22_S22_L001_R1_001.fastq.gz	22_S22_L001_R2_001.fastq.gz
+Sample 23	X23	23_GY08-233_Control-coldmud_1-2cm	12b Control 1-2cm	Sample_12b_Control_1.2cm	12b	Control	1-2cm	Orange mat	blue	SRP110312	PRJNA391741	SAMN07274355	23_S23_L001_R1_001.fastq.gz	23_S23_L001_R2_001.fastq.gz
