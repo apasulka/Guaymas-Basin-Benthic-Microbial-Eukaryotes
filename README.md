@@ -1,4 +1,4 @@
-### Bioinformatic workflow - Pasulka *et al.*
+# Bioinformatic workflow - Pasulka *et al.*
 Methods used for quality control, clustering, and analysis of tag-sequencing (18S rRNA gene) survey from Guaymas Basin benthic samples.
 
 #### Alexis Pasulka, Sarah K. Hu, Lisa Mesrop, Craig Cary, Kathryn Coyne, Karla Heidelberg, Peter Countway, & David A. Caron. SSU-rRNA sequencing survey of sediment-hosted microbial eukaryotes from Guaymas Basin hydrothermal vent. _In prep._
